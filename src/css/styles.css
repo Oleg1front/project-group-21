@@ -33,4 +33,9 @@
 body {
   max-width: 1390px;
   background-color: #0e1823;
+  height: 100vh;
+}
+button,
+a {
+  cursor: pointer;
 }
