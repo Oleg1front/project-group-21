@@ -62,8 +62,6 @@
   flex-direction: row;
   align-items: center;
   gap: 4px;
-  /* 
-  background-color: #fbfbfb 30; */
 }
 
 .footer-nav-btn {
@@ -72,7 +70,6 @@
   display: flex;
   width: 66px;
   height: 40px;
-  /* padding: 15px 12px; */
   background-color: rgba(251, 251, 251, 0.3);
   border: none;
   border-radius: 8px;
@@ -100,7 +97,6 @@
   padding: 0;
   flex-direction: row;
   gap: 8px;
-  /* margin-top: 80px; */
 }
 .footer-sm-item {
   display: flex;
@@ -109,8 +105,7 @@
   width: 24px;
   height: 24px;
 }
-.footer-sm-item-bckg {
-}
+
 .footer-sm-icon {
   display: flex;
   justify-content: center;
@@ -131,7 +126,6 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
-  /* max-width: 279px; */
 }
 .footer-additions {
   display: flex;
@@ -158,7 +152,8 @@
   color: rgba(251, 251, 251, 0.4);
 }
 
-/* ----------------------Media 768px---------------------- */
+/* ------------------------------Media 768------------------------------------ */
+
 @media screen and (min-width: 768px) {
   .footer {
     padding: 0;
@@ -166,21 +161,17 @@
 
   .footer-container {
     padding: 50px 48px 20px 48px;
-    gap: 40px;
+    gap: 97px;
+    width: 100%;
   }
 
   .container.footer-container {
-    max-width: 768px;
+    max-width: 736px;
   }
 
   .footer-header {
+    flex-wrap: nowrap;
     gap: 0;
-  }
-
-  .footer-mob-header {
-  }
-
-  .footer-logo {
   }
   .footer-logo-text {
     font-weight: 500;
@@ -191,40 +182,54 @@
     margin: auto;
   }
 
-  .footer-nav-list {
-  }
-
   .footer-nav-btn {
     width: 91px;
     height: 40px;
   }
 
-  .footer-sm {
-  }
-  .footer-sm-list {
-  }
-  .footer-sm-item {
-  }
-  .footer-sm-item-bckg {
-  }
-  .footer-sm-icon {
-  }
   .footer-slogan {
-    /* margin-bottom: 42px; */
+    margin-bottom: 0;
   }
+
   .footer-slogan-text {
     font-size: 32px;
     line-height: 1;
     color: #fbfbfb;
   }
-  .footer-additions {
-  }
+
   .footer-cc {
     font-size: 14px;
     line-height: 1.18;
   }
+
   .footer-pp {
     font-size: 14px;
     line-height: 1.18;
   }
+}
+
+/* --------------------------Media screen 1280--------------------------------------- */
+
+@media screen and (min-width: 1280px) {
+  .footer-container {
+    padding: 50px 75px 20px 75px;
+    gap: 97px;
+    width: 100%;
+  }
+
+  .container.footer-container {
+    max-width: 1230px;
+  }
+}
+
+/* --------------------------Media screen 1440--------------------------------------- */
+
+@media screen and (min-width: 1440px) {
+  .container.footer-container {
+    max-width: 1390px;
+  }
+}
+
+.footer-slogan {
+  max-width: 699px;
 }
