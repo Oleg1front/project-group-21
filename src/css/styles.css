@@ -29,3 +29,13 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+body {
+  max-width: 1390px;
+  background-color: #0e1823;
+  height: 100vh;
+}
+button,
+a {
+  cursor: pointer;
+}
