@@ -27,7 +27,7 @@
   align-items: center;
   /* gap: 37px; */
   justify-content: space-between;
-
+  flex-wrap: wrap;
   gap: 80px;
   box-sizing: border-box;
   width: 100%;
@@ -44,7 +44,7 @@
 }
 
 .footer-logo {
-  /* margin-right: 37px; */
+  margin-right: 12px;
 }
 .footer-logo-text {
   font-family: 'Inter', sans-serif;
@@ -72,7 +72,7 @@
   display: flex;
   width: 66px;
   height: 40px;
-  padding: 15px 12px;
+  /* padding: 15px 12px; */
   background-color: rgba(251, 251, 251, 0.3);
   border: none;
   border-radius: 8px;
