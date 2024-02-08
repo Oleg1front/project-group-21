@@ -1,5 +1,5 @@
 header {
-  position: absolute;
+  position: fixed;
   top: 20px;
   left: 20px;
   border: 1px solid rgb(251, 251, 251);
