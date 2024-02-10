@@ -10,6 +10,9 @@
             id="user-name"
             class="rent-form-input"
             placeholder="Full Name"
+            required
+            pattern="[A-Za-zА-Яа-яЁёІіЇїЄє\s]+"
+            title="Please enter your full name"
           />
           <input
             type="email"
@@ -17,6 +20,9 @@
             id="user-mail"
             class="rent-form-input"
             placeholder="Email"
+            required
+            pattern=".+@.+\..+"
+            title="Please enter a valid email address"
           />
           <input
             type="tel"
@@ -24,6 +30,9 @@
             id="user-tel"
             class="rent-form-input"
             placeholder="Phone number"
+            required
+            pattern="\d{3}-\d{3}-\d{4}"
+            title="Please enter a phone number in the format XXX-XXX-XXXX"
           />
           <textarea
             name="user-comment"
