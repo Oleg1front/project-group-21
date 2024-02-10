@@ -2,9 +2,6 @@ section {
     padding: 40px 0;
 }
 
-.rent { 
-}
-
 .rent .container {
     margin: 0 auto;
     max-width: 375px;
@@ -59,7 +56,7 @@ section {
     color: #fbfbfb;
 }
 
-.form-comment{
+.form-comment {
     height: 108px;
     resize: none;
 }
@@ -89,4 +86,85 @@ section {
 .rent-form-btn:active {
     background-color: #fbfbfb;
     color: #1b414b;
+}
+
+.rent-img {
+    border-radius: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    section {
+        padding: 75px 0;
+    }
+
+    .rent .container{
+        max-width: 768px;
+        justify-content: center;
+        align-items: center;
+        padding: 0 32px;
+    }
+
+    .rent-title{
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 100%;
+        letter-spacing: -0.02em;
+        align-self: start;
+    }
+
+    .input-wrap{
+        margin-top: 50px;
+    }
+
+    .rent-form-input{
+        width: 472px;
+        height: 54px;
+        font-size: 14px;
+        line-height: 129%;
+        padding: 18px;
+    }
+
+    .form-comment{
+        height: 116px;
+    }
+
+    .rent-form-btn {
+        padding: 18px 75px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+        width: 194px;
+        margin: 50px 0 100px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .rent .container{
+        max-width: 1280px;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 0 50px;
+        gap: 50px;
+    }
+
+    .input-wrap {
+        margin-top: 50px;
+    }
+
+    .rent-form-btn {
+        margin: 50px 0 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .rent .container {
+        max-width: 1440px;
+        padding-right: 100px;
+    }
+
+    .rent-img {
+        height: 536px;
+    }
 }
