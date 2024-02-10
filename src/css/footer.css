@@ -156,7 +156,7 @@
 
 @media screen and (min-width: 768px) {
   .footer {
-    padding: 0;
+    padding: 0 16px;
   }
 
   .footer-container {
@@ -211,6 +211,10 @@
 /* --------------------------Media screen 1280--------------------------------------- */
 
 @media screen and (min-width: 1280px) {
+  .footer {
+    padding: 0 25px;
+  }
+
   .footer-container {
     padding: 50px 75px 20px 75px;
     gap: 97px;
@@ -220,16 +224,36 @@
   .container.footer-container {
     max-width: 1230px;
   }
+  .footer-nav-btn:hover {
+    background-color: #fbfbfb;
+    color: #1b414b;
+  }
+  .footer-sm-item-bckg:hover svg {
+    fill: rgba(251, 251, 251, 0.8);
+  }
 }
 
 /* --------------------------Media screen 1440--------------------------------------- */
 
 @media screen and (min-width: 1440px) {
+  .footer {
+    padding: 0 25px;
+  }
+
   .container.footer-container {
     max-width: 1390px;
   }
-}
 
-.footer-slogan {
-  max-width: 699px;
+  .footer-nav-btn:hover {
+    background-color: #fbfbfb;
+    color: #1b414b;
+  }
+
+  .footer-slogan {
+    max-width: 699px;
+  }
+
+  .footer-sm-item-bckg:hover svg {
+    fill: rgba(251, 251, 251, 0.8);
+  }
 }
