@@ -25,22 +25,10 @@ ol {
   padding-right: 20px;
 }
 
-.container {
-}
-
-.item-advantages {
-  /* display: flex;
-  gap: 32px; */
-}
-
 .number-list {
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; */
   padding: 80px 20px;
   background: #1b414b;
   border-radius: 24px;
-  /* margin-bottom: 20px; */
 }
 
 .list-text {
@@ -72,26 +60,54 @@ ol {
 
 .img-advantages {
   border-radius: 24px;
-  width: 100%;
+}
+
+/**-----------media-----------**/
+
+@media screen and (min-width: 768px) {
+  .number-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 44px 32px;
+    padding: 90px 32px;
+  }
+
+  .img-advantages {
+    width: 100%;
+  }
+  .number-text-list::after {
+    width: 304px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-}
-@media screen and (min-width: 1280px) {
+  .number-list {
+    gap: 44px;
+    padding: 90px 50px;
+  }
   .advantages {
     padding-top: 75px;
     padding-bottom: 75px;
     padding-left: 20px;
     padding-right: 20px;
   }
-}
-@media screen and (min-width: 1280px) {
   .item-advantages {
     display: flex;
     gap: 32px;
     justify-content: center;
   }
+
+  .number-text-list::after {
+    width: 280px;
+  }
 }
+
+@media screen and (max-width: 767px) {
+  .list-text:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .number-list {
     margin-bottom: 20px;
@@ -102,43 +118,4 @@ ol {
   .number-list {
     margin-bottom: 32px;
   }
-}
-
-@media screen and (min-width: 768px) {
-  .number-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-    gap: 44px 32px;
-  }
-  .list-text {
-    width: calc((100% - 32px) / 2);
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .number-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 716px;
-  }
-
-  .list-text {
-    width: calc((100% - 44px) / 2);
-  }
-
-  .img-advantages {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .list-text:not(:last-child) {
-    margin-bottom: 40px;
-  }
-}
-
-@media screen and (min-width: 768px) {
 }
