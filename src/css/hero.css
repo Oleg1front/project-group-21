@@ -55,6 +55,12 @@ padding: 260px 20px 302px 20px;
         background: #1b414b;
         margin: 0 auto;
         border: none;
+        margin-bottom: 243px;
+}
+
+.hero-btn:hover {
+    background: #fbfbfb;
+        color: #1b414b;
 }
 
 /* -------tablet----------- */
