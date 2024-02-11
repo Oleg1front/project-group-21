@@ -1,0 +1,133 @@
+.hero {
+    margin: 0 auto;
+    /* max-width: 375px; */
+    background-image: linear-gradient(360deg, #11131f 15.05%, rgba(17, 19, 31, 0.39) 75.3%, rgba(17, 19, 31, 0) 98.27%),
+    url(../img/hero/hero-mob-1x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+padding: 260px 20px 302px 20px;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(360deg, #11131f 15.05%, rgba(17, 19, 31, 0.39) 75.3%, rgba(17, 19, 31, 0) 98.27%),
+        url(../img/hero/hero-mob-2x.jpg);
+    }
+}
+
+.hero-container {
+    max-width: 335px;
+        margin: 0 auto;
+}
+
+.hero-title {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #fbfbfb;
+        margin-bottom: 24px;
+}
+
+.hero-text {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 1.17;
+        text-align: center;
+        color: rgba(251, 251, 251, 0.7);
+        margin-bottom: 32px;
+}
+
+.hero-btn {
+    display: block;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        color: #fbfbfb;
+    border-radius: 15px;
+        padding: 14px 32px;
+        width: 141px;
+        height: 46px;
+        background: #1b414b;
+        margin: 0 auto;
+        border: none;
+}
+
+/* -------tablet----------- */
+
+@media screen and (min-width: 768px) {
+
+    .hero {
+        /* max-width: 768px; */
+        padding: 281px 32px;
+        background-image: linear-gradient(360deg, #11131f 15.05%, rgba(17, 19, 31, 0.39) 75.3%, rgba(17, 19, 31, 0) 98.27%),
+                url(../img/hero/hero-tab-1x.jpg);
+    }
+
+        @media screen and (min-device-pixel-ratio: 2),
+        (min-resolution: 2dppx) {
+            .hero {
+                background-image: linear-gradient(360deg, #11131f 15.05%, rgba(17, 19, 31, 0.39) 75.3%, rgba(17, 19, 31, 0) 98.27%),
+                    url(../img/hero/hero-tab-2x.jpg);
+            }
+        }
+
+    .hero-container {
+        max-width: 704px;
+    }
+
+    .hero-title {
+        font-size: 70px;
+    }
+
+    .hero-text {
+            font-size: 16px;
+            line-height: 1.4;
+            margin-bottom: 48px;
+    }
+
+    .hero-btn {
+            font-size: 18px;
+            line-height: 1.1;
+                padding: 16px 40px;
+                width: 179px;
+                height: 52px;
+    }
+}
+
+/* -------desktop----------- */
+
+@media screen and (min-width: 1280px) {
+    
+    .hero {
+        padding: 235px 140px 215px 140px;
+        background-image: linear-gradient(360deg, #11131f 15.05%, rgba(17, 19, 31, 0.39) 75.3%, rgba(17, 19, 31, 0) 98.27%),
+                url(../img/hero/hero-1x.jpg);
+    }
+
+        @media screen and (min-device-pixel-ratio: 2),
+        (min-resolution: 2dppx) {
+            .hero {
+                background-image: linear-gradient(360deg, #11131f 15.05%, rgba(17, 19, 31, 0.39) 75.3%, rgba(17, 19, 31, 0) 98.27%),
+                    url(../img/hero/hero-2x.jpg);
+            }
+        }
+
+        .hero-container {
+            max-width: 1000px;
+        }
+    
+        .hero-title {
+                font-size: 80px;
+        }
+    
+        .hero-text {
+        }
+
+    .hero-btn {
+    }
+}
