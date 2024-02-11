@@ -1,13 +1,53 @@
-<header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
+<header>
+  <div class="header-container">
+    <a href="/src/index.html" class="header-link">yachtjet</a>
+    <nav>
+      <ul class="header-nav-list">
+        <li class="header-nav-list-item">
+          <button  class="header-nav-list-btn active" type="button">
+           <a href="#about-section">About</a>
+          </button>
+        </li>
+        <li class="header-nav-list-item">
+          <button class="header-nav-list-btn" type="button">Yachts</button>
+        </li>
+        <li class="header-nav-list-item">
+          <button class="header-nav-list-btn" type="button">Reviews</button>
+        </li>
+      </ul>
+    </nav>
+    <ul class="header-social-list">
+      <li class="header-social-list-item">
+        <a class="header-social-list-item-link" href="https://www.instagram.com/goitclub/" target="_blank">
+          <svg class="header-social-icon" width="24" height="24" fill="none">
+            <use href="./img/symbol-defs.svg#icon-instagram"></use>
+          </svg>
+        </a>
       </li>
-
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
+      <li class="header-social-list-item">
+        <a class="header-social-list-item-link" href="https://www.youtube.com/c/GoIT" target="_blank">
+          <svg class="header-social-icon" width="24" height="24" fill="none">
+            <use href="./img/symbol-defs.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-social-list-item">
+        <a class="header-social-list-item-link" href="https://www.facebook.com/goITclub/" target="_blank">
+          <svg class="header-social-icon" width="24" height="24" fill="none">
+            <use href="./img/symbol-defs.svg#icon-facebook"></use>
+          </svg>
+        </a>
       </li>
     </ul>
-  </nav>
+    <button class="header-burger-btn" type="button">
+      <svg class="header-burger-icon" width="28" height="28" fill="none">
+        <use href="/img/symbol-defs.svg#icon-burger-menu"></use>
+      </svg>
+    </button>
+    <button type="button" class="header-close-btn">
+      <svg class="header-close-icon" width="16" height=16 fill="none">
+        <use href="./img/symbol-defs.svg#icon-close-menu"></use>
+      </svg>
+    </button>
+  </div>
 </header>
