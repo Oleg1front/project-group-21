@@ -1,45 +1,44 @@
 .section-gallery{
-  height: 930px;
   background-color: #0e1823;
   margin: 0 auto;
   padding: 20px;
   min-width: 100%;
 }
 
-
+.text-h2{
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 28px;
+line-height: 1;
+letter-spacing: -0.02em;
+text-align: center;
+color: #fbfbfb;
+width: 319px;
+margin: 0 auto;  
+margin-bottom: 40px;
+}
 
 .main-container{
 display: flex;
 align-items: flex-start;
 justify-content: flex-start;
 flex-direction: row;
-gap: 32px;
 
 }
+
 .sub-container{
 border-radius: 24px;
-width: 392px;
-height: 508px;
 font-family: "Inter", sans-serif;
 background: #fbfbfb;
-padding: 15px;
+padding: 25px;
+margin: 0 auto;
 }
-.text-h2{
-font-family: var(--font-family);
-font-weight: 500;
-font-size: 48px;
-line-height: 100%;
-letter-spacing: -0.02em;
-text-align: center;
-color: #fbfbfb;
-width: 714px;
-margin: 0 auto;  
-margin-bottom: 80px;
-}
+
 
 .picture{
 border-radius: 24px;
-
+margin: 0 auto;
+padding-left: 16px;
 }
 
 .text-container{
@@ -47,29 +46,22 @@ display: flex;
 align-items: center;
 justify-content: flex-start;
 flex-direction: row;
-gap: 168px;
-width: 328px;
-height: 19px;
 }
+
 .left-text{
 font-family: var(--font-family);
 font-weight: 500;
 font-size: 16px;
 line-height: 19px; 
 line-height: 1.2;
+gap: 100px;
+display: flex;
 letter-spacing: -0.04em;
 text-transform: uppercase;
-color: #1b414b;
+color: #000607;
+margin: 0 auto;
 }
-.right-text{
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 13px;
-line-height: 15px; 
-line-height: 1.18;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #040306;
+.hint{
 opacity: 0.4;
 }
 .list-ul{
@@ -78,24 +70,22 @@ align-items: flex-start;
 justify-content: flex-start;
 flex-direction: row;
 gap: 172px;
-width: 328px;
-height: 109px;
 }
+
 .fr-description{
 display: flex;
 align-items: flex-start;
 justify-content: flex-start;
 flex-direction: column;
 gap: 6px;
-width: 62px;
-height: 109px;
 opacity: 0.4;
+max-width: 100%;
 }
+
 .paragraph{
 font-family: var(--font-family);
 font-weight: 400;
 font-size: 14px;
-
 line-height: 1.18;
 letter-spacing: 0.03em;
 text-transform: uppercase;
@@ -107,20 +97,33 @@ align-items: flex-start;
 justify-content: center;
 flex-direction: column;
 gap: 6px;
-width: 94px;
-height: 109px;
 background: #fbfbfb;
+
 }
 .paragraph-sc{
 font-family: var(--font-family);
 font-weight: 400;
 font-size: 14px;
-
 line-height: 1.18;
 letter-spacing: 0.03em;
 color: #040306;
 }
 
+.list-ul-fr{
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 6px;
+}
+
+.list-ul-scnd{
+display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+gap: 6px;
+}
 .btn{
   border: 1px solid rgba(251, 251, 251, 0.35);
   border-radius: 15px;
@@ -128,8 +131,42 @@ color: #040306;
   background: #0e1823;
   color: var(--WHITE, #FFF);
   margin: 0 auto;
-  position: absolute;
-  margin-top: 50px;
-  left: 50%; 
-  transform: translateX(-50%);
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 80px;
 }
+.line-container{
+content: "";
+display: block;
+height: 1px; /* Висота лінії */
+background-color: black; /* Колір лінії */
+stroke-width: 1px;
+opacity: 0.4;
+}
+ .ul-container{
+   display: flex;
+   display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 114px;
+ }
+
+
+@media only screen and (min-width: 1440px) {
+}
+
+
+@media only screen and (min-width: 1280px) {
+.image{
+ 
+}
+
+}
+
+
+@media only screen and (min-width: 768px) {
+/* Стилі для екранів шириною до 768px */
+}
+
+
