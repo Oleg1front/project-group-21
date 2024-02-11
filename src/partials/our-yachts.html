@@ -1,142 +1,96 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project</title>
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-
-  <body>
-    <section class="section-gallery">
-      <h2 class="text-h2">
-        Choose your dream yacht and sail away into the sunset
-      </h2>
-      <!-- Заголовок з текстом -->
-      <div class="container">
-        <div class="image">
-
-          <picture>
-            <source media="(min-width: 1280px)" srcset="/img/img yaht1280.jpg">
-            <source media="(min-width: 768px)" srcset="/img/img yaht-tablet.jpg">
-            <source media="(min-width: 375px)" srcset="/img/img yaht-phone.jpg">
-          <img src="img/img yaht1440.jpg" alt="Image 1" class="img-class" />
-          </picture>
-          <div class="frame">
-            <p class="p-main">ARROW</p>
-            <p class="p-hints-fr">LUXURY YACHTS</p>
-          </div>
-          <svg
-            class="svg-img"
-            width="329"
-            height="2"
-            viewBox="0 0 329 2"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M0.5 1H328.5" stroke="#040306" stroke-opacity="0.1" />
-            <use href="/img/symbol-defs.svg#icon-Vector1440"></use>
-          </svg>
-          <div class="list">
-            <div class="description">
-              <p class="p-hints">Length</p>
-              <p class="p-hints">Builder</p>
-              <p class="p-hints">Built</p>
-              <p class="p-hints">Guests</p>
-              <p class="p-hints">Price</p>
-            </div>
-            <div class="description-scnd">
-              <p class="p-regular">48m(155ft)</p>
-              <p class="p-regular">Admiral</p>
-              <p class="p-regular">2021</p>
-              <p class="p-regular">11 in 5 cabins</p>
-              <p class="p-regular">€33,500,000</p>
-            </div>
-          </div>
+<section class="section-gallery">
+  <div class="main-container">
+    <div class="sub-container">
+  <h2 class="text-h2">
+    Choose your dream yacht and sail away into the sunset
+  </h2>
+      <img class="picture" src="img/img-yaht1440.jpg" alt="Фото 1">
+      <div class="text-container">
+        <div class="left-text">
+          <p>ARROW</p>
         </div>
-        <div class="image">
-          <img src="img/img yaht2-1440.jpg" alt="Image 2" class="img-class" />
-          <div class="frame-fr">
-            <p class="p-main">BENETTI OASIS 40M B...</p>
-            <p class="p-hints-fr">LUXURY YACHTS</p>
-          </div>
-          <svg
-            class="svg-img"
-            width="329"
-            height="2"
-            viewBox="0 0 329 2"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M0.5 1H328.5" stroke="#040306" stroke-opacity="0.1" />
-            <use href="/img/symbol-defs.svg#icon-Vector1280"></use>
-          </svg>
-          <div class="list">
-            <div class="description">
-              <p class="p-hints">Length</p>
-              <p class="p-hints">Builder</p>
-              <p class="p-hints">Built</p>
-              <p class="p-hints">Guests</p>
-              <p class="p-hints">Price</p>
-            </div>
-            <div class="description-scnd">
-              <p class="p-regular">41m (133ft)</p>
-              <p class="p-regular">Benetti</p>
-              <p class="p-regular">2025</p>
-              <p class="p-regular">10 in 5 cabins</p>
-              <p class="p-regular">€23,210,000</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="image">
-          <img src="img/img yaht3-1440.jpg" alt="Image 3" class="img-class" />
-          <div class="frame-sc">
-            <p class="p-main">BELLE ANNA</p>
-            <p class="p-hints-fr">LUXURY YACHTS</p>
-          </div>
-          <svg
-            class="svg-img"
-            width="329"
-            height="2"
-            viewBox="0 0 329 2"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M0.5 1H328.5" stroke="#040306" stroke-opacity="0.1" />
-            <use href="/img/symbol-defs.svg#icon-Vector1440"></use>
-          </svg>
-          <div class="list">
-            <div class="description">
-              <p class="p-hints">Length</p>
-              <p class="p-hints">Builder</p>
-              <p class="p-hints">Built</p>
-              <p class="p-hints">Guests</p>
-              <p class="p-hints">Price</p>
-            </div>
-            <div class="description-scnd">
-              <p class="p-regular">50m(155ft)</p>
-              <p class="p-regular">ISA</p>
-              <p class="p-regular">2012</p>
-              <p class="p-regular">12 in 6 cabins</p>
-              <p class="p-regular">€21,000,000</p>
-            </div>
-          </div>
+        <div class="right-text">
+          <p>LUXURY YACHTS</p>
         </div>
       </div>
-      <button class="btn" type="button">Yacht rental</button>
-      <!-- Кнопка з текстом -->
-    </section>
-  </body>
-</html>
+      <ul class="list-ul">
+        <li class="fr-description">
+          <p class="paragraph">Length</p>
+          <p class="paragraph">Builder</p>
+          <p class="paragraph">Built</p>
+          <p class="paragraph">Guests</p>
+          <p class="paragraph">Price</p>
+        
+        </li>
+        <li class="scnd-description">    
+          <p class="paragraph-sc">48m(155ft)</p>
+          <p class="paragraph-sc">Admiral</p>
+          <p class="paragraph-sc">2021</p>
+          <p class="paragraph-sc">11 in 5 cabins</p>
+          <p class="paragraph-sc">€33,500,000</p>
+
+        </li>
+      </ul>
+    </div>
+    <div class="sub-container">
+      <img class="picture"  src="img/img-yaht2-1440.jpg" alt="Фото 1">
+      <div class="text-container">
+        <div class="left-text">
+          <p>BENETTI OASIS 40M B...</p>
+        </div>
+        <div class="right-text">
+          <p>LUXURY YACHTS</p>
+        </div>
+      </div>
+      <ul class="list-ul">
+        <li class="fr-description">    
+          <p class="paragraph">Length</p>
+          <p class="paragraph">Builder</p>
+          <p class="paragraph">Built</p>
+          <p class="paragraph">Guests</p>
+          <p class="paragraph">Price</p>
+        
+        </li>
+        <li class="scnd-description">
+          <p class="paragraph-sc">41m (133ft)</p>
+          <p class="paragraph-sc">Benetti</p>
+          <p class="paragraph-sc">2025</p>
+          <p class="paragraph-sc">10 in 5 cabins</p>
+          <p class="paragraph-sc">€23,210,000</p>
+        </li>
+      </ul>
+    </div>
+    <div class="sub-container">
+      <img class="picture"  src="img/img-yaht3-1440.jpg" alt="Фото 1">
+      <div class="text-container">
+        <div class="left-text">
+          <p>BELLE ANNA</p>
+        </div>
+        <div class="right-text">
+          <p>LUXURY YACHTS</p>
+        </div>
+      </div>
+      <ul class="list-ul">
+        <li class="fr-description">
+          <p class="paragraph">Length</p>
+          <p class="paragraph">Builder</p>
+          <p class="paragraph">Built</p>
+          <p class="paragraph">Guests</p>
+          <p class="paragraph">Price</p>
+        
+        </li>
+        <li class="scnd-description">    
+          <p class="paragraph-sc">50m(155ft)</p>
+          <p class="paragraph-sc">ISA</p>
+          <p class="paragraph-sc">2012</p>
+          <p class="paragraph-sc">12 in 6 cabins</p>
+          <p class="paragraph-sc">€21,000,000</p>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <button class="btn" type="button">Yacht rental</button>
+  <!-- Кнопка з текстом -->
+</section>
