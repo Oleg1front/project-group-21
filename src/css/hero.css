@@ -41,7 +41,6 @@
   margin-bottom: 24px;
   max-width: 335px;
   margin: 0 auto;
-  padding-bottom: 20px;
 }
 
 .hero-text {
@@ -53,6 +52,7 @@
   margin-bottom: 32px;
   max-width: 335px;
   margin: 0 auto;
+  padding-top: 20px;
   padding-bottom: 38px;
 }
 
@@ -121,6 +121,7 @@
     line-height: 1.4;
     margin-bottom: 48px;
     max-width: 704px;
+    padding-bottom: 48px;
   }
 
   .hero-btn {
@@ -169,6 +170,7 @@
 
   .hero-text {
     max-width: 1000px;
+    padding-bottom: 48px;
   }
 
   .hero-btn {
