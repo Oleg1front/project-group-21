@@ -90,6 +90,7 @@
   }
 
   .about-img {
+    max-width: 100%;
   }
 }
 

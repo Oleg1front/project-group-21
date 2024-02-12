@@ -1,0 +1,115 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.advantages {
+  background: #0e1823;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 1190px;
+  margin: 0 auto;
+}
+
+.number-list {
+  padding: 80px 20px;
+  background: #1b414b;
+  border-radius: 24px;
+}
+
+.list-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+
+.number-text-list {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: -0.05em;
+  color: #fbfbfb;
+}
+
+.number-text-list::after {
+  content: '';
+  display: block;
+  height: 2px;
+  background: rgba(251, 251, 251, 0.1);
+  border-radius: 18px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.img-advantages {
+  border-radius: 24px;
+}
+
+/**-----------media-----------**/
+
+@media screen and (min-width: 768px) {
+  .number-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 44px 32px;
+    padding: 90px 32px;
+  }
+
+  .number-text-list::after {
+    width: 304px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .number-list {
+    gap: 44px;
+    padding: 90px 50px;
+  }
+  .advantages {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  .item-advantages {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+  }
+
+  .number-text-list::after {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .list-text:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .number-list {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .number-list {
+    margin-bottom: 32px;
+  }
+}

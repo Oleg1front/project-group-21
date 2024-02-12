@@ -27,7 +27,7 @@ button {
   cursor: pointer;
 }
 
-img {
+img:not(.img-advantages) {
   display: block;
   height: auto;
   max-width: 100%;
