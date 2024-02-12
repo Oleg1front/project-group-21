@@ -1,7 +1,8 @@
 header {
-  position: fixed;
+  position: absolute;
   top: 20px;
   left: 20px;
+  z-index: 1;
   border: 1px solid rgb(251, 251, 251);
   border-radius: 8px;
   background-color: rgb(251, 251, 251);
@@ -15,6 +16,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: start;
+  max-width: 1390px;
 }
 .header-burger-icon {
   stroke: #1b414b;
@@ -36,6 +38,7 @@ header {
   top: 4px;
   right: 23px;
 }
+
 .header-close-btn {
   position: absolute;
   top: 9px;
@@ -81,11 +84,10 @@ header {
   justify-content: center;
   gap: 8px;
 }
-.header-social-list-item-link {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 .header-social-icon {
   fill: rgb(27, 65, 75);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-social-list-item {
   width: 24px;
@@ -121,7 +123,6 @@ header {
     justify-content: space-between;
   }
   .header-link {
-    padding-right: 109px;
     color: rgb(27, 65, 75);
     font-family: Inter;
     font-size: 20px;
@@ -129,9 +130,6 @@ header {
     line-height: 24px;
     letter-spacing: -3%;
     text-align: left;
-  }
-  .header-nav-list {
-    padding-right: 98px;
   }
 }
 
