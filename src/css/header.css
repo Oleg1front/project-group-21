@@ -1,7 +1,8 @@
 header {
-  position: fixed;
+  position: absolute;
   top: 20px;
   left: 20px;
+  z-index: 1;
   border: 1px solid rgb(251, 251, 251);
   border-radius: 8px;
   background-color: rgb(251, 251, 251);
@@ -37,6 +38,7 @@ header {
   top: 4px;
   right: 23px;
 }
+
 .header-close-btn {
   position: absolute;
   top: 9px;
@@ -121,7 +123,6 @@ header {
     justify-content: space-between;
   }
   .header-link {
-    padding-right: 109px;
     color: rgb(27, 65, 75);
     font-family: Inter;
     font-size: 20px;
@@ -129,9 +130,6 @@ header {
     line-height: 24px;
     letter-spacing: -3%;
     text-align: left;
-  }
-  .header-nav-list {
-    padding-right: 98px;
   }
 }
 
