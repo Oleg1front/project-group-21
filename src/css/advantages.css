@@ -21,8 +21,8 @@ ol {
   background: #0e1823;
   padding-top: 40px;
   padding-bottom: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 1190px;
+  margin: 0 auto;
 }
 
 .number-list {
@@ -84,8 +84,6 @@ ol {
   .advantages {
     padding-top: 75px;
     padding-bottom: 75px;
-    padding-left: 20px;
-    padding-right: 20px;
   }
   .item-advantages {
     display: flex;
