@@ -34,9 +34,8 @@
 body {
   background-color: #0e1823;
 }
-.container{
-  max-width: 1390px;
-  
+.container {
+  max-width: 1230px;
 }
 .visually-hidden {
   position: absolute;
