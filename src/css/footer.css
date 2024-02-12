@@ -3,10 +3,8 @@
   /* flex-direction: column; */
   background-color: #0e1823;
   padding: 0 10px;
-
-  position: absolute;
-  bottom: 0;
   width: 100%;
+  padding-top: 80px;
 }
 
 .footer-container {
@@ -173,6 +171,7 @@
 @media screen and (min-width: 768px) {
   .footer {
     padding: 0 16px;
+    padding-top: 150px;
   }
 
   .footer-container {
@@ -226,6 +225,7 @@
 @media screen and (min-width: 1280px) {
   .footer {
     padding: 0 25px;
+    padding-top: 150px;
   }
 
   .footer-container {
