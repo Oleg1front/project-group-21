@@ -5,7 +5,9 @@
   display: flex;
   flex-direction: column;
 }
-
+.rent {
+  margin-bottom: 150px;
+}
 .rent-title {
   font-weight: 500;
   font-size: 28px;

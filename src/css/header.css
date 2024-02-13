@@ -61,6 +61,9 @@ header {
   text-decoration: none;
 }
 .header-nav-list-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #fbfbfb;
   font-family: Inter, sans-serif;
   font-size: 9px;
@@ -68,7 +71,8 @@ header {
   line-height: 130%;
   text-align: center;
   text-transform: uppercase;
-  padding: 15px 25px;
+  width: 91px;
+  height: 40px;
   border-radius: 8px;
   background-color: #8b9ea3;
   border: none;

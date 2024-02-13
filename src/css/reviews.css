@@ -4,9 +4,10 @@
   justify-content: center;
   /* padding-bottom: 173px; */
   /* margin-bottom: 80px; */
-  min-width: 320px;
   max-width: 375px;
-  padding: 80px 20px;
+  padding: 0 20px;
+  margin: 0 auto;
+  margin-bottom: 80px;
 }
 .container {
 }
@@ -110,11 +111,10 @@
 @media screen and (min-width: 768px) {
   .reviews {
     max-width: 768px;
-    padding-top: 14px;
-    padding-bottom: 286px;
     padding-left: 32px;
     padding-right: 32px;
     justify-content: center;
+    margin-bottom: 150px;
   }
   .container {
   }
@@ -165,9 +165,8 @@
     max-width: 1280px;
     text-align: center;
     justify-content: center;
-    padding-left: 51px;
-    padding-right: 49px;
-    /* padding-bottom: 173px; */
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .container {
   }

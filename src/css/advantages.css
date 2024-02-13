@@ -23,12 +23,18 @@ ol {
   padding-bottom: 40px;
   max-width: 1190px;
   margin: 0 auto;
+  padding: 0 20px;
+  margin-bottom: 80px;
 }
-
+/* .advantages-wraper {
+  display: flex;
+  gap: 32px;
+} */
 .number-list {
   padding: 80px 20px;
   background: #1b414b;
   border-radius: 24px;
+  max-width: 716px;
 }
 
 .list-text {
@@ -68,18 +74,20 @@ ol {
     display: flex;
     flex-wrap: wrap;
     gap: 44px 32px;
-    padding: 90px 32px;
   }
 
   .number-text-list::after {
     width: 304px;
+  }
+  .advantages {
+    padding: 0 32px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .number-list {
     gap: 44px;
-    padding: 90px 50px;
+    width: 768px;
   }
   .advantages {
     padding-top: 75px;
