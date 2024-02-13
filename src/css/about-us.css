@@ -26,6 +26,7 @@
   margin: 0 auto;
   background-color: white;
   border-radius: 24px;
+  margin-bottom: 40px;
 }
 
 .about-title {
@@ -51,7 +52,6 @@
   letter-spacing: -0.02em;
   color: #040306;
   opacity: 0.4;
-  margin-bottom: 40px;
 }
 
 .about-img {
@@ -76,6 +76,7 @@
     padding-top: 50px;
     padding-left: 32px;
     max-width: 768px;
+    margin-bottom: 50px;
   }
 
   .about-title {
@@ -93,7 +94,6 @@
     font-size: 13px;
     line-height: 1.15;
     max-width: 389px;
-    margin-bottom: 50px;
   }
 
   .about-img {
@@ -120,6 +120,7 @@
     padding-left: 50px;
     padding-right: 50px;
     max-width: 1280px;
+    margin-bottom: 100px;
   }
 
   .about-title {
@@ -134,7 +135,6 @@
 
   .about-text {
     max-width: 354px;
-    margin-bottom: 100px;
   }
 
   .about-img {

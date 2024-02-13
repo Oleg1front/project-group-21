@@ -20,11 +20,10 @@ ol {
 .advantages {
   background: #0e1823;
   padding-bottom: 80px;
-  max-width: 1190px;
-  margin: 0 auto;
 }
 .item-advantages {
-  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1190px;
 }
 /* .advantages-wraper {
   display: flex;
@@ -85,14 +84,12 @@ ol {
   .img-advantages {
     margin: 0 auto;
   }
-  .item-advantages {
-    padding: 0 32px;
-  }
 }
 
 @media screen and (min-width: 1280px) {
   .advantages {
     padding-bottom: 150px;
+    margin: 0 auto;
   }
   .item-advantages {
     display: flex;
