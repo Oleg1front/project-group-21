@@ -10,6 +10,7 @@
   height: 100vh;
   top: 0;
   z-index: 99;
+  overflow: hidden;
 }
 .modal-header {
   position: absolute;
@@ -62,6 +63,9 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-header-nav-list-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #fbfbfb;
   font-family: Inter, sans-serif;
   font-size: 9px;
@@ -69,11 +73,12 @@
   line-height: 130%;
   text-align: center;
   text-transform: uppercase;
-  padding: 15px 25px;
+  width: 91px;
+  height: 40px;
   border-radius: 8px;
-  background-color: #142d37;
+  background-color: #8b9ea3;
   border: none;
-  width: 100%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-header-nav-list-btn:hover {
   background-color: #1b414b;
