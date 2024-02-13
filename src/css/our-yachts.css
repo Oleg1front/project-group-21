@@ -1,7 +1,9 @@
 .section-gallery {
   background-color: #0e1823;
-  padding: 0 20px;
-  padding-bottom: 75px;
+  padding-bottom: 80px;
+}
+.yachts-container {
+  margin: 0 auto;
 }
 
 .text-h2 {
@@ -36,6 +38,7 @@
 .picture {
   border-radius: 24px;
   margin: 0 auto;
+  height: 240px;
 }
 
 .text-container {
@@ -74,11 +77,6 @@
 }
 
 .fr-description {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 6px;
   opacity: 0.4;
 }
 
@@ -91,13 +89,7 @@
   color: #040306;
   text-transform: uppercase;
 }
-.scnd-description {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
-  gap: 6px;
-}
+
 .paragraph-sc {
   font-family: var(--font-family);
   font-weight: 400;
@@ -128,7 +120,7 @@
   color: var(--WHITE, #fff);
   margin: 0 auto;
   display: block;
-  margin-top: 40px;
+  margin-top: 50px;
   width: 141px;
   height: 46px;
   display: flex;
@@ -191,6 +183,9 @@
 
 /* Для екранів з шириною від 768px до 1279px (включно) */
 @media only screen and (min-width: 768px) {
+  .section-gallery {
+    padding-bottom: 150px;
+  }
   .ul-container {
     gap: 116px;
   }
@@ -199,8 +194,8 @@
     justify-content: space-between;
     gap: 0px;
   }
-  .fr-description {
-    max-height: 16px;
+  .picture {
+    height: 268px;
   }
   .ul-container {
     justify-content: flex-start;
@@ -208,8 +203,6 @@
   }
 
   .scnd-description {
-    max-width: 60px;
-    max-height: 15px;
     white-space: nowrap;
   }
   .main-container {
@@ -226,6 +219,9 @@
 
 /* Для екранів з шириною від 1280px до 1439px (включно) */
 @media only screen and (min-width: 1280px) {
+  .section-gallery {
+    padding-bottom: 150px;
+  }
   .ul-container {
     gap: 160px;
   }
@@ -233,15 +229,9 @@
     max-width: 377px;
     max-height: 508px;
   }
-
   .left-text {
     white-space: nowrap;
     gap: 33px;
-  }
-  .fr-description {
-    max-height: 16px;
-    max-width: 60px;
-    white-space: nowrap;
   }
 
   .scnd-description {

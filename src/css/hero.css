@@ -11,7 +11,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 260px 20px 302px 20px;
+  padding-top:260px;
+  padding-bottom: 302px;
 }
 
 @media screen and (min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
